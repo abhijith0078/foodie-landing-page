@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Rubik:wght@300;400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="media.css" />
+
+    <title>Foodie</title>
+
+    <script defer src="script.js"></script>
+  </head>
+
+  <body>
+    <header class="header fixed-nav">
+      <a class="logo-a" href="#">
+        <div class="logo">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6 shopcart"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+            />
+          </svg>
+
+          <p><span>F</span>OODIE<span>E</span></p>
+        </div>
+      </a>
+
+      <nav class="main-nav">
+        <ul class="navigation">
+          <li><a href="#section-how" class="nav-link">How it works</a></li>
+          <li><a href="#section-meals" class="nav-link">Meals</a></li>
+
+          <li>
+            <a href="#section-testimonial" class="nav-link">Testimonials</a>
+          </li>
+
+          <li><a href="#section-pricing" class="nav-link">Pricing</a></li>
+
+          <li>
+            <a href="#section-cta" class="nav-link btn btn--full btn--sm"
+              >Try for free</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <button class="btn-nav">
+        <ion-icon class="nav-menu-icon menu" name="menu"></ion-icon>
+
+        <ion-icon class="nav-menu-icon close" name="close"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="main-section">
+        <div class="primary-heading">
+          <h1 class="primary-heading-text">
+            Eat breakfast like a king, lunch like a prince, and dinner like a
+            pauper.
+          </h1>
+
+          <div class="primary-desc">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+              nihil, ratione officia suscipit asperiores eius, assumenda
+              accusamus dolore quis rerum, quos minima maiores dolores
+              temporibus ea eum saepe enim harum
+            </p>
+          </div>
+
+          <div class="buttons">
+            <a href="#section-pricing" class="btn btn--full">Subscibe Now</a>
+
+            <a href="#section-how" class="btn btn--outline margin-right"
+              >Learn More &darr;</a
+            >
+          </div>
+
+          <div class="rated-div">
+            <div class="rated-img">
+              <img src="face1.jpg" alt="rated-people" />
+
+              <img src="face2.jpg" alt="rated-people" />
+
+              <img src="face3.jpg" alt="rated-people" />
+              <img src="face4.jpg" alt="rated-people" />
+
+              <img src="face5.jpg" alt="rated-people" />
+
+              <img src="face6.jpg" alt="rated-people" />
+            </div>
+
+            <p><span>25000+</span> satisfied subscribers make us proud</p>
+          </div>
+        </div>
+
+        <div class="primary-img">
+          <img src="food-01.jpg" alt="food img" />
+        </div>
+      </section>
+    </main>
+
+    <div class="section-how" id="section-how">
+      <div class="container">
+        <span class="how-it-work">how it works</span>
+        <h2 class="heading-secondary">
+          Maintain your health by 3 simple steps
+        </h2>
+      </div>
+
+      <div class="container grid grid--2-column grid-center-v">
+        <!-- Step 01  -->
+
+        <div class="step-text-box">
+          <p class="step-number">01</p>
+
+          <h3 class="heading-tertiary">Tell us what you like</h3>
+
+          <p class="step-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae odit
+            qui iure mollitia at amet officia ratione aut quasi sapiente tenetur
+            unde quo repudiandae expedita autem adipisci nisi, rem natus!
+          </p>
+        </div>
+
+        <div class="step-img-box">
+          <img
+            src="phone1.webp"
+            class="step-img"
+            alt="phone image shows step for good health"
+          />
+        </div>
+
+        <!-- Step 02 -->
+
+        <div class="step-img-box">
+          <img
+            src="phone3.webp"
+            class="step-img"
+            alt="phone image shows step for good health"
+          />
+        </div>
+
+        <div class="step-text-box">
+          <strong class="step-number">02</strong>
+
+          <h3 class="heading-tertiary">Approve your meal</h3>
+          <p class="step-description">
+            Ipsum dolor sit amet consectetur adipisicing elit. Vitae odit qui
+            iure mollitia at amet officia ratione aut quasi sapiente tenetur
+            unde quo repudiandae expedita autem adipisci nisi, rem natus!
+          </p>
+        </div>
+
+        <!--
+
+Step 03
+
+-->
+
+        <div class="step-text-box">
+          <strong class="step-number">03</strong>
+          <h3 class="heading-tertiary">Enjoy your day</h3>
+
+          <p class="step-description">
+            Pit amet consectetur adipisicing elit. Vitae odit qui iure mollitia
+            at amet officia ratione aut quasi sapiente tenetur unde quo
+            repudiandae expedita autem adipisci nisi, rem natus!
+          </p>
+        </div>
+
+        <div class="step-img-box">
+          <img
+            src="phone1.webp"
+            class="step-img"
+            alt="phone image shows step for good health"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="section-meals" id="section-meals">
+      <div class="container">
+        <span class="how-it-work">meals</span>
+
+        <h2 class="heading-secondary">
+          Select your recipes from 1000<sup>+</sup> recipes
+        </h2>
+      </div>
+
+      <div class="container grid grid--3-cols grid--rowgap-decrease">
+        <div class="meals">
+          <img src="biriyani.jpg" class="meal-img" alt="food recipies" />
+
+          <div class="meal-text-box">
+            <p class="meal-type meal-type-nonveg">non-veg</p>
+            <p class="meal-heading">Chicken biriyani</p>
+
+            <ul class="meal-ui">
+              <li class="meal-li">
+                <ion-icon class="meal-icon" name="flame"></ion-icon
+                ><span><strong>570</strong> Calories</span>
+              </li>
+
+              <li class="meal-li">
+                <ion-icon class="meal-icon" name="restaurant"></ion-icon
+                ><span>Nutriscore &reg; <strong>80</strong></span>
+              </li>
+
+              <li class="meal-li">
+                <ion-icon class="meal-icon" name="body"></ion-icon
+                ><span><strong>75</strong> Fat</span>
+              </li>
+              <li class="meal-li">
+                <ion-icon class="meal-icon" name="star-outline"></ion-icon
+                ><span><strong>4.8</strong> rating</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="meals">
+          <img src="paneer.jpg" class="meal-img" alt="food recipies" />
+          <div class="meal-text-box">
+            <p class="meal-type meal-type-veg">veg</p>
+
+            <p class="meal-heading">Paneer soup</p>
+
+            <ul class="meal-ui">
+              <li class="meal-li">
+                <ion-icon class="meal-icon" name="flame"></ion-icon
+                ><span><strong>570</strong> Calories</span>
+              </li>
+
+              <li class="meal-li">
+                <ion-icon class="meal-icon" name="restaurant"></ion-icon
+                ><span>Nutriscore &reg; <strong>80</strong></span>
+              </li>
+
+              <li class="meal-li">
+                <ion-icon class="meal-icon" name="body"></ion-icon
+                ><span><strong>75</strong> Fat</span>
+              </li>
+
+              <li class="meal-li">
+                <ion-icon class="meal-icon" name="star-outline"></ion-icon
+                ><span><strong>4.8</strong> rating</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="meals-list">
+          <p class="meal-list-heading">Works with any diets:</p>
+
+          <ul class="meal-list-ui">
+            <li class="meal-list-li">
+              <ion-icon class="meal-icon-tick" name="checkmark"></ion-icon
+              >Belief-based diets
+            </li>
+
+            <li class="meal-list-li">
+              <ion-icon class="meal-icon-tick" name="checkmark"></ion-icon
+              >Calorie and weight control diets
+            </li>
+
+            <li class="meal-list-li">
+              <ion-icon class="meal-icon-tick" name="checkmark"></ion-icon>Crash
+              diets
+            </li>
+
+            <li class="meal-list-li">
+              <ion-icon class="meal-icon-tick" name="checkmark"></ion-icon>Detox
+              diets
+            </li>
+
+            <li class="meal-list-li">
+              <ion-icon class="meal-icon-tick" name="checkmark"></ion-icon>Fad
+              diets
+            </li>
+
+            <li class="meal-list-li">
+              <ion-icon class="meal-icon-tick" name="checkmark"></ion-icon
+              >Vegetarian diets
+            </li>
+
+            <li class="meal-list-li">
+              <ion-icon class="meal-icon-tick" name="checkmark"></ion-icon
+              >High-fat diets
+            </li>
+
+            <li class="meal-list-li">
+              <ion-icon class="meal-icon-tick" name="checkmark"></ion-icon
+              >Detoxifying
+            </li>
+
+            <li class="meal-list-li">
+              <ion-icon class="meal-icon-tick" name="checkmark"></ion-icon
+              >Liquid diets
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container see-more">
+        <a href="#" class="see-more-meals"> See all recipes &rightarrow;</a>
+      </div>
+    </div>
+
+    <div class="section-margin section-testimonial" id="section-testimonial">
+      <div class="testimonials">
+        <span class="how-it-work">Testimonials</span>
+
+        <h2 class="heading-secondary">Let's see how others think about us</h2>
+
+        <div class="testimonials-box">
+          <figure class="testimonial">
+            <img
+              src="face2.jpg"
+              class="testimonial-img"
+              alt="Image of John Lucas"
+            />
+            <blockquote class="testimonial-quote">
+              Great chicken. I live on this food. They were wowed with the
+              taste. Every food item's pricing is also affordable. It's a
+              worthwhile investment.
+            </blockquote>
+
+            <span>&mdash; John Lucas</span>
+          </figure>
+          <figure class="testimonial">
+            <img
+              src="face3.jpg"
+              class="testimonial-img"
+              alt="Image of John Lucas"
+            />
+
+            <blockquote class="testimonial-quote">
+              I had a great time. My family and I recently went to FOODIEE. My
+              parents had never had FOODIEE before. Every food item's pricing is
+              also affordable.
+            </blockquote>
+
+            <span>&mdash; Rock Nari</span>
+          </figure>
+
+          <figure class="testimonial">
+            <img
+              src="face4.jpg"
+              class="testimonial-img"
+              alt="Image of John Lucas"
+            />
+            <blockquote class="testimonial-quote">
+              Never tried ordering one online but their restaurants make really
+              tasty. Although kinda overpriced, the employees were nice and the
+              food was worth it.
+            </blockquote>
+
+            <span>&mdash; Adarsh Perera</span>
+          </figure>
+
+          <figure class="testimonial">
+            <img
+              src="face1.jpg"
+              class="testimonial-img"
+              alt="Image of John Lucas"
+            />
+
+            <blockquote class="testimonial-quote">
+              I absolutely loved our cashier named Jordan on Ramsey street
+              Fayetteville NC. His service was amazing and he sounded so happy.
+            </blockquote>
+
+            <span>&mdash; Ajay Mandan</span>
+          </figure>
+        </div>
+      </div>
+
+      <div class="gallery">
+        <div>
+          <img src="food/f12.jpg" class="gallery-img" alt="gallery" />
+        </div>
+
+        <div>
+          <img src="food/f1.jpg" class="gallery-img" alt="gallery" />
+        </div>
+
+        <div>
+          <img src="food/f2.jpg" class="gallery-img" alt="gallery" />
+        </div>
+
+        <div>
+          <img src="food/f3.jpg" class="gallery-img" alt="gallery" />
+        </div>
+
+        <div>
+          <img src="food/f4.jpg" class="gallery-img" alt="gallery" />
+        </div>
+
+        <div>
+          <img src="food/f5.jpg" class="gallery-img" alt="gallery" />
+        </div>
+
+        <div>
+          <img src="food/f6.jpg" class="gallery-img" alt="gallery" />
+        </div>
+
+        <div>
+          <img src="food/f7.jpg" class="gallery-img" alt="gallery" />
+        </div>
+
+        <div>
+          <img src="food/f9.jpg" class="gallery-img" alt="gallery" />
+        </div>
+
+        <div>
+          <img src="food/f8.jpg" class="gallery-img" alt="gallery" />
+        </div>
+
+        <div>
+          <img src="food/f10.jpg" class="gallery-img" alt="gallery" />
+        </div>
+
+        <div>
+          <img src="food/f11.jpg" class="gallery-img" alt="gallery" />
+        </div>
+      </div>
+    </div>
+
+    <section class="section-pricing" id="section-pricing">
+      <div class="container">
+        <span class="how-it-work">Pricing</span>
+
+        <h2 class="heading-secondary">
+          Choose your plan without breaking your bank
+        </h2>
+      </div>
+
+      <div class="container grid grid--2-column">
+        <div class="pricing pricing-starter">
+          <div class="pricing-heading-box">
+            <h4 class="pricing-heading">Starter</h4>
+
+            <p class="pricing-price"><span>&dollar;</span>399</p>
+            <p class="pricing-description">
+              per month. That's &dollar; 13.3 per meal
+            </p>
+
+            I
+          </div>
+
+          <ul class="meal-list-ui margin-bottom-sm">
+            <li class="meal-list-li">
+              <ion-icon class="meal-icon-tick" name="checkmark"></ion-icon>1
+              meal per day
+            </li>
+
+            <li class="meal-list-li">
+              <ion-icon class="meal-icon-tick" name="checkmark"></ion-icon>Order
+              from 9am to 8pm
+            </li>
+
+            <li class="meal-list-li">
+              <ion-icon class="meal-icon-tick" name="checkmark"></ion-icon>Free
+              delivery
+            </li>
+
+            <li class="meal-list-li">
+              <!-- opacity-none -->
+              <ion-icon class="meal-icon-tick" name="close"></ion-icon>
+            </li>
+          </ul>
+
+          <div class="button">
+            <a href="#" class="btn btn--full">Subscibe Now</a>
+          </div>
+        </div>
+
+        <div class="pricing pricing-complete">
+          <div class="pricing-heading-box">
+            <h4 class="pricing-heading">Complete</h4>
+            <p class="pricing-price"><span>&dollar;</span>699</p>
+
+            <p class="pricing-description">
+              per month. That's &dollar; 11.65 per day
+            </p>
+          </div>
+
+          <ul class="meal-list-ui margin-bottom-sm">
+            <li class="meal-list-li">
+              <ion-icon class="meal-icon-tick" name="checkmark"></ion-icon>2
+              meals per day
+            </li>
+
+            <li class="meal-list-li">
+              <ion-icon class="meal-icon-tick" name="checkmark"></ion-icon>Order
+              24/7
+            </li>
+
+            <li class="meal-list-li">
+              <ion-icon class="meal-icon-tick" name="checkmark"></ion-icon>Free
+              delivery
+            </li>
+
+            <li class="meal-list-li">
+              <ion-icon class="meal-icon-tick" name="checkmark"></ion-icon>Get
+              access to new recipes
+            </li>
+          </ul>
+
+          <div class="button">
+            <a href="#" class="btn btn--full center">Subscibe Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="tips">
+      <p>Price include all applicable taxes. You can cancel it any time</p>
+    </div>
+
+    <section class="features grid grid--4-cols">
+      <div class="feature">
+        <ion-icon name="infinite" class="feature-img"></ion-icon>
+
+        <h4>Never cook again</h4>
+
+        <p>
+          Our subscription covers 365 days. You can enjoy what food you like
+        </p>
+      </div>
+
+      <div class="feature">
+        <ion-icon name="leaf" class="feature-img"> </ion-icon>
+
+        <h4>Natural and organic</h4>
+
+        <p>We use only fresh, organic products to make our meals</p>
+      </div>
+
+      <div class="feature">
+        <ion-icon name="git-compare" class="feature-img"></ion-icon>
+
+        <h4>No waste</h4>
+
+        <p>We are using only reusable plastics and covering materials.</p>
+      </div>
+
+      <div class="feature">
+        <ion-icon name="pause" class="feature-img"></ion-icon>
+
+        <h4>Pause any time</h4>
+        <p>You can pause your subscription any time you like.</p>
+      </div>
+    </section>
+
+    <section class="section-cta" id="section-cta">
+      <div class="container background grid grid--2-column-2-1">
+        <div class="cta-text-box">
+          <h2 class="cta-heading">Get your first meal for free</h2>
+
+          <p>
+            Eat fresh, organic and natural meals without waiting one minute.
+            Lets start eat well.
+          </p>
+
+          <form class="form" action="#">
+            <div>
+              <label for="name">Full name</label>
+              <input type="text" id="name" placeholder="John Lucas" required />
+            </div>
+            <div>
+              <label for="email">Email Id</label>
+
+              <input
+                type="email"
+                id="email"
+                placeholder="aa@gmail.com"
+                required
+              />
+            </div>
+
+            <div>
+              <label for="mobile">Mob. No</label>
+
+              <input
+                type="tel"
+                id="mobile"
+                placeholder="+911234567890"
+                required
+              />
+            </div>
+
+            <div>
+              <label for="Quantity">Quantity</label>
+
+              <select id="Quantity">
+                <option value="">select</option>
+
+                <option value="one">One</option>
+
+                <option value="two">Two</option>
+              </select>
+            </div>
+
+            <button class="btn">Submit</button>
+          </form>
+        </div>
+
+        <div
+          class="cta-img-box"
+          role="img"
+          aria-label="food image on a table"
+        ></div>
+      </div>
+    </section>
+
+    <footer class="grid footer">
+      <div class="footer-box footer-p">
+        <a class="logo-a" href="#">
+          <div class="logo">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6 shopcart"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+              />
+            </svg>
+
+            <p><span>F</span>OODIE<span>E</span></p>
+          </div>
+        </a>
+
+        <div class="footer-icons">
+          <ion-icon class="footer-icon" name="logo-instagram"></ion-icon>
+
+          <ion-icon class="footer-icon" name="logo-facebook"></ion-icon>
+          <ion-icon class="footer-icon" name="logo-twitter"></ion-icon>
+        </div>
+
+        <p>Copyright &copy; reserved by Foodie Org.</p>
+      </div>
+
+      <div class="address footer-box">
+        <p class="footer-header">Address</p>
+        <address>
+          123 Bloomington, dr manager, <br />
+          USA
+
+          <a href="tel:1234567890">1234567890</a>
+
+          <a href="mailto: foodiee@gmail.com">foodiee@gmail.com</a>
+        </address>
+      </div>
+
+      <div class="footer-nav">
+        <p class="footer-header">Account</p>
+
+        <ul>
+          <li><a href="#">Sign In</a></li>
+
+          <li><a href="#">Sign Out</a></li>
+
+          <li><a href="#">Android App</a></li>
+
+          <li><a href="#">IOS App</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-nav">
+        <p class="footer-header">Company</p>
+
+        <ul>
+          <li><a href="#">About Us</a></li>
+
+          <li><a href="#">Contact us</a></li>
+
+          <li><a href="#">Careers</a></li>
+
+          <li><a href="#">Learn more</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-nav">
+        <p class="footer-header">Resources</p>
+
+        <ul>
+          <li><a href="#">Directory</a></li>
+
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Privacy & Terms</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    I
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  </body>
+</html>

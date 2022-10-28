@@ -1,0 +1,163 @@
+/* max-width 1200px           */
+
+@media (max-width: 75em) {
+  .main-section {
+    max-width: 100rem;
+  }
+}
+
+/* max-width 1056px */
+@media (max-width: 66em) {
+  header {
+    padding-left: 2rem;
+  }
+
+  html {
+    font-size: 56.25%;
+  }
+
+  .heading-secondary {
+    font-size: 3rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2.4rem;
+  }
+
+  .how-it-work {
+    font-size: 1.4rem;
+  }
+}
+
+/* max-width 900px */
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+  .heading-secondary {
+    font-size: 2.4rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2rem;
+  }
+
+  .how-it-work {
+    font-size: 1.2rem;
+  }
+  .main-section {
+    grid-template-columns: 1fr;
+    width: 60%;
+  }
+
+  .section-how {
+    padding: 8rem 1rem;
+  }
+
+  .grid--2-column-2-1 {
+    grid-template-columns: 1.3fr 1fr;
+    column-gap: 3rem;
+  }
+  form input::placeholder {
+    font-size: 1.2rem;
+  }
+
+  .cta-heading {
+    font-size: 2.4rem;
+  }
+
+  .cta-text-box p {
+    font-size: 1.2rem;
+  }
+
+  .btn-nav {
+    display: block;
+  }
+
+  .main-nav {
+    position: absolute;
+
+    top: 0;
+
+    right: 0;
+
+    height: 0vh;
+    background-color: #fff;
+    transform: translatex(100%);
+    width: 0%;
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+    transition: all 0.5s ease-in;
+
+    opacity: 0;
+
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  .nav-open .main-nav {
+    opacity: 100%;
+
+    pointer-events: auto;
+
+    transition: all 0.5s ease-in;
+    visibility: visible;
+    transform: translatex(0);
+    width: 100%;
+    height: 100vh;
+  }
+
+  .nav-open .close {
+    display: block;
+  }
+
+  .nav-open menu {
+    display: none;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .nav-link:link,
+  .nav-link:visited {
+    font-size: 2rem;
+  }
+}
+
+/* max-width 800px */
+@media (max-width: 50em) {
+  .section-how {
+    padding: 3rem;
+  }
+
+  .section-meals {
+    padding: 3rem;
+  }
+  .section-testimonial {
+    padding: 3rem;
+  }
+
+  .section-pricing {
+    padding: 3rem;
+  }
+
+  .section-cta {
+    margin: 3rem;
+  }
+}
+
+/*
+  
+  * Font size px
+  
+  10 12 14 16 18 20 24 30 36 44 52 62 74 86 98
+  
+  * Spacing px 2 4 8 12 16 24 32 48 64 80 96 128
+  
+  */
