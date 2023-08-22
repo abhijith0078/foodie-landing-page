@@ -1,3 +1,4 @@
 # foodie-landing-page
 landing page for foodie restaurant
-![Uploading screencapture-file-E-Web-development-11-foodie-landing-page-index-html-2023-08-22-23_14_54.png…]()
+
+![foodie landing page2](https://github.com/abhijith0078/foodie-landing-page/assets/56915507/c2e5d51a-5014-4d3d-a207-4e5464949078)
